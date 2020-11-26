@@ -3,8 +3,8 @@
 1. Create a new async function in `exercise-2.js`.
 2. Declare the `client`
 3. Connect to the client, etc.
-4. Declare the `db`. _We're still using 'exercises'._
-5. Use `.find()` to get back _all_ of the documents in the 'two' collection.
+4. Declare the `db`. \_We're still using `exercise_1`.
+5. Use `.find()` to get back _all_ of the documents in the 'greetings' collection.
 6. Use the `.toArray()`.
 7. Be sure to `res`pond appropriately. `find` will return an empty array if it doesn't find anything...
 8. Create a new endpoint: `.get('/ex-2/greeting', getGreetings)`
